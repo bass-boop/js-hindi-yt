@@ -45,7 +45,8 @@ console.log(typeof myFunction);
 
 
 
-// IMP For interview -------------->
+
+// IMP For interview (put in notes) -------------->
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
