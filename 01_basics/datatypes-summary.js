@@ -50,4 +50,30 @@ console.log(typeof myFunction);
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
+// +++++++++++++++++++++++++++ 2 - MEMORY ++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "mrpengudotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurpenguin"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "mrpengu.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mrmengu.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
 
